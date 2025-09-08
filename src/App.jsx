@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       {isLoading && <Loading onComplete={() => setIsLoading(false)} />}
-      <main className='relative h-min-screen w-dvh bg-white overflow-x-hidden'>
+      <main className='relative min-h-screen w-screen bg-white overflow-x-hidden'>
         <Navbar />
         <Hero />
         <Problemas />
