@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Hero from './components/hero'
+import Hero from './components/Hero'
 import Navbar from './components/Navbar' 
 import Problemas from './components/Problemas'
 import Loading from './components/Loading'
