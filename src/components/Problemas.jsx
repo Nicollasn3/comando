@@ -39,7 +39,7 @@ const CardProblema = ({ imageUrl, iconUrl, title, description }) => {
       ></div>
       {/* Painel: desce no mobile; entra da esquerda em md+ */}
       <div
-        className={`z-0 flex flex-col gap-2 w-full md:w-1/2 h-[243px] px-9 items-start align-middle justify-center bg-black transition-transform duration-[2000ms] ease-out will-change-transform ${
+        className={`z-0 flex flex-col gap-2 w-full md:w-1/2 h-[243px] px-9 items-start align-middle justify-center bg-black transition-transform duration-[1300ms] ease-out will-change-transform ${
           revealed
             ? 'translate-y-0 md:translate-x-0'
             : '-translate-y-[-243px] md:-translate-x-full md:translate-y-0'
