@@ -28,7 +28,7 @@ const CardProblema = ({ imageUrl, iconUrl, title, description }) => {
   }, [])
 
   return (
-    <div className='relative flex flex-col md:flex-row md:max-w-[1000px] md:items-center mx-auto md:justify-center w-full h-fit overflow-hidden'>
+    <div className='relative flex flex-col-reverse md:flex-row md:max-w-[1000px] md:items-center mx-auto md:justify-center w-full h-fit overflow-hidden'>
       {/* Imagem */}
       <div
         ref={imageRef}
@@ -42,7 +42,7 @@ const CardProblema = ({ imageUrl, iconUrl, title, description }) => {
         className={`z-0 flex flex-col gap-2 w-full md:w-1/2 h-[243px] px-9 items-start align-middle justify-center bg-black transition-transform duration-[2000ms] ease-out will-change-transform ${
           revealed
             ? 'translate-y-0 md:translate-x-0'
-            : '-translate-y-full md:-translate-x-full md:translate-y-0'
+            : '-translate-y-[-243px] md:-translate-x-full md:translate-y-0'
         }`}
       >
         <img src={iconUrl} alt="aletar" className=' ' />
@@ -112,7 +112,7 @@ const Problemas = () => {
         />
       </div>
       <div className=''>
-        <h1 className='text-2xl text-center font-bold text-black md:text-center md:text-4xl'>A cada falha, sua família e seu patrimônio ficam expostos.</h1>
+        <h1 className='text-2xl text-center font-bold  md:text-center md:text-4xl'>A cada falha, sua família e seu patrimônio ficam expostos.</h1>
         <div 
           ref={linhaRef}
           className='linha bg-red-200 md:h-[45px] md:mt-[-40px] h-[70px] mt-[-65px]'
