@@ -57,19 +57,19 @@ const Problemas = () => {
       </div>
       <div className='flex flex-col w-full h-fit gap-12 rounded-sm'>
         <CardProblema
-          imageUrl='/Portao.png'
+          imageUrl='/Portao.webp'
           iconUrl='/aletar.svg'
           title='Portões que travam ou ficam abertos.'
           description='Um portão com falha deixa o condomínio desprotegido e expõe moradores a riscos desnecessários.'
         />
         <CardProblema 
-          imageUrl='/Controle.png'
+          imageUrl='/Controle.webp'
           iconUrl='/alerta3.svg'
           title='Visitantes entrando sem controle'
           description='Sem controle de acesso, qualquer pessoa pode entrar e circular, comprometendo a segurança de todos.'
         />
         <CardProblema
-          imageUrl='/Camera.png'
+          imageUrl='/Camera.webp'
           iconUrl='/alerta2.svg'
           title='Sistemas sem manutenção'
           description='Sem manutenção preventiva, os equipamentos falham justamente quando são mais necessários.'
