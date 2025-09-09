@@ -1,4 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const CardProblema = ({ imageUrl, iconUrl, title, description }) => {
   const imageRef = useRef(null)
@@ -18,6 +22,7 @@ const CardProblema = ({ imageUrl, iconUrl, title, description }) => {
       { root: null, threshold: 0.4 }
     )
 
+    
     observer.observe(target)
     return () => observer.disconnect()
   }, [])
@@ -49,6 +54,37 @@ const CardProblema = ({ imageUrl, iconUrl, title, description }) => {
 }
 
 const Problemas = () => {
+  const linhaRef = useRef(null)
+
+  useEffect(() => {
+    const linha = linhaRef.current
+    
+    if (!linha) return
+
+    // Configurar estado inicial - linha com largura 0
+    gsap.set(linha, { width: 0 });
+
+    // Criar animação com ScrollTrigger
+    const animation = gsap.to(linha, {
+      width: "100%",
+      duration: 3,
+      ease: "none",
+      scrollTrigger: {
+        trigger: linha,
+        start: "top 800px",
+        end: "bottom 300px",
+        scrub: true,
+        // markers: true // Remove isso em produção
+      }
+    });
+
+    // Cleanup
+    return () => {
+      animation.kill();
+      ScrollTrigger.getAll().forEach(trigger => trigger.kill());
+    };
+  }, [])
+
   return (
     <div id="problemas" className='relative h-fit w-full overflow-hidden py-12 px-6 flex flex-col gap-12 md:items-center md:justify-center md:justify-center'>
       <div className='flex flex-col gap-2'>
@@ -74,6 +110,13 @@ const Problemas = () => {
           title='Sistemas sem manutenção'
           description='Sem manutenção preventiva, os equipamentos falham justamente quando são mais necessários.'
         />
+      </div>
+      <div className=''>
+        <h1 className='text-2xl text-center font-bold text-black md:text-center md:text-4xl'>A cada falha, sua família e seu patrimônio ficam expostos.</h1>
+        <div 
+          ref={linhaRef}
+          className='linha bg-red-200 md:h-[45px] md:mt-[-40px] h-[70px] mt-[-65px]'
+        ></div>
       </div>
     </div>
   )

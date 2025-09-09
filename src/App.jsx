@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Navbar from './components/Navbar' 
 import Problemas from './components/Problemas'
 import Loading from './components/Loading'
+import Treino from './components/Treino'
 
 function App() {
   const [isLoading, setIsLoading] = useState(true)
@@ -14,6 +15,7 @@ function App() {
         <Navbar />
         <Hero />
         <Problemas />
+        <Treino />
       </main>
     </>
   )
