@@ -12,16 +12,15 @@ function App() {
     setIsLoading(false)
   }
 
-  if (isLoading) {
-    return <Loading onComplete={handleLoadingComplete} />
-  }
-
   return (
     <main className='relative h-100dvh w-100dvh bg-white overflow-x-hidden'>
       <Navbar />
       <Hero />
       <Problemas />
       <Solucao />
+      
+      {/* Tela de loading sobrepondo tudo */}
+      {isLoading && <Loading onComplete={handleLoadingComplete} />}
     </main>
   )
 }
