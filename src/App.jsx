@@ -3,21 +3,26 @@ import Hero from './components/Hero'
 import Navbar from './components/Navbar' 
 import Problemas from './components/Problemas'
 import Loading from './components/Loading'
-import Treino from './components/Treino'
+import Solucao from './components/Solucao'
 
 function App() {
   const [isLoading, setIsLoading] = useState(true)
 
+  const handleLoadingComplete = () => {
+    setIsLoading(false)
+  }
+
+  if (isLoading) {
+    return <Loading onComplete={handleLoadingComplete} />
+  }
+
   return (
-    <>
-      {isLoading && <Loading onComplete={() => setIsLoading(false)} />}
-      <main className='relative h-100dvh w-100dvh bg-white overflow-x-hidden'>
-        <Navbar />
-        <Hero />
-        <Problemas />
-        <Treino />
-      </main>
-    </>
+    <main className='relative h-100dvh w-100dvh bg-white overflow-x-hidden'>
+      <Navbar />
+      <Hero />
+      <Problemas />
+      <Solucao />
+    </main>
   )
 }
 

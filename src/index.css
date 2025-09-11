@@ -12,5 +12,15 @@
     
     html {
         scroll-behavior: smooth;
+        scroll-padding-top: 0;
+    }
+    
+    body {
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+    }
+    
+    * {
+        scroll-behavior: smooth;
     }
 }

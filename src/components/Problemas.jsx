@@ -115,7 +115,7 @@ const Problemas = () => {
         <h1 className='text-2xl text-center font-bold  md:text-center md:text-4xl'>A cada falha, sua família e seu patrimônio ficam expostos.</h1>
         <div 
           ref={linhaRef}
-          className='linha bg-red-200 md:h-[45px] md:mt-[-40px] h-[70px] mt-[-65px]'
+          className='linha bg-red-300 md:h-[45px] md:mt-[-40px] h-[70px] mt-[-65px]'
         ></div>
       </div>
     </div>
