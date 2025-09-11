@@ -18,14 +18,14 @@ const Solucao = () => {
     // Animação de rotação do escudo
     const escudoAnimation = gsap.to(escudo, {
       rotation: 180,
-      duration: 2,
+      duration: 3,
       ease: "power2.out",
       scrollTrigger: {
         trigger: escudo,
-        start: "top 800px",
-        end: "bottom 300px",
+        start: "top 500px",
+        end: "bottom 130px",
         scrub: true,
-        // markers: true // Remove isso em produção
+        markers: true // Remove isso em produção
       }
     });
 
@@ -36,7 +36,7 @@ const Solucao = () => {
     if (window.innerWidth >= 768) {
       conteudoAnimation = gsap.to(conteudo, {
         y: 320,
-        duration: 2,
+        duration: 3,
         ease: "power2.out",
         scrollTrigger: {
           trigger: conteudo,
