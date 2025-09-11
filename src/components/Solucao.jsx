@@ -60,8 +60,8 @@ const Solucao = () => {
   return (
     <div className="flex flex-row w-full h-[1300px] justify-center  overflow-hidden p-6 gap-16">
         <div className="flex flex-col md:flex-row items-center md:items-start gap-12 ">
-            <div ref={conteudoRef} className="flex items-center justify-center h-[288px] w-[288px] rounded-sm border-[31px] border-blue-700 rounded-sm">
-                <div className="flex justify-center items-center align-middle h-[181.62px] w-[181.62px] rounded-sm bg-blue-700 border-16 border-white rounded-sm">
+            <div ref={conteudoRef} className="flex items-center justify-center h-[288px] w-[288px] rounded-sm border-[31px] border-azul-principal rounded-sm">
+                <div className="flex justify-center items-center align-middle h-[181.62px] w-[181.62px] rounded-sm bg-azul-principal border-16 border-white rounded-sm">
                     <img 
                       ref={escudoRef}
                       id="escudo" 
@@ -99,7 +99,7 @@ const Solucao = () => {
                     <ArrowRight className="w-[30px] h-[30px] text-zinc-600"/>
                 </div>
                 <div className="w-full border-b-2 border-zinc-700 "></div>
-                <button className="w-fit bg-blue-700 text-white text-lg font-medium px-12 py-3 rounded-full">Fale no WhatsApp agora</button>
+                <button className="w-fit bg-azul-principal text-white text-lg font-medium px-12 py-3 rounded-full">Fale no WhatsApp agora</button>
             </div>
         </div>
 
