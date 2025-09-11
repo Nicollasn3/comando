@@ -3,7 +3,20 @@ import Hero from './components/Hero'
 import Navbar from './components/Navbar' 
 import Problemas from './components/Problemas'
 import Loading from './components/Loading'
+import { gsap } from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { ScrollSmoother } from 'gsap/ScrollSmoother'
 import Solucao from './components/Solucao'
+Solucao
+
+gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+
+let smoother = ScrollSmoother.create({
+  smooth: 2,
+  effects: true,
+  normalizeScroll: true
+});
+
 
 function App() {
   const [isLoading, setIsLoading] = useState(true)
