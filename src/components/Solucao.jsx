@@ -25,7 +25,7 @@ const Solucao = () => {
         start: "top 500px",
         end: "bottom 130px",
         scrub: true,
-        markers: true // Remove isso em produção
+        // markers: true // Remove isso em produção
       }
     });
 
