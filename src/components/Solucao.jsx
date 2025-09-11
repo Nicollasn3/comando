@@ -77,25 +77,25 @@ const Solucao = () => {
                 <h1 className="text-3xl font-bold text-black">Com a Comando, você transforma o risco em tranquilidade:</h1>
                 <div className="flex flex-row gap-6 w-full items-center">
                     <img src="/portao.svg" alt="portao" className="w-[32px] h-[32px] "/>
-                    <h1 className="text-lg font-medium text-zinc-600 w-full">Portões modernos <br />com abertura pelo celular</h1>
+                    <h1 className="text-lg font-bold text-zinc-600 w-full">Portões modernos <br />com abertura pelo celular</h1>
                     <ArrowRight className="w-[30px] h-[30px] text-zinc-600"/>
                 </div>
                 <div className="w-full border-b-2 border-zinc-700 "></div>
                 <div className="flex flex-row gap-6 w-full items-center">
                     <img src="/camera.svg" alt="camera" className="w-[32px] h-[32px] "/>
-                    <h1 className="text-lg font-medium text-zinc-600 w-full">Monitoramento em tempo real</h1>
+                    <h1 className="text-lg font-bold text-zinc-600 w-full">Monitoramento em tempo real</h1>
                     <ArrowRight className="w-[30px] h-[30px] text-zinc-600"/>
                 </div>
                 <div className="w-full border-b-2 border-zinc-700 "></div>
                 <div className="flex flex-row gap-6 w-full items-center">
                     <img src="/alerta.svg" alt="alerta" className="w-[32px] h-[32px] "/>
-                    <h1 className="text-lg font-medium text-zinc-600 w-full">Alarmes inteligentes <br /> e câmeras de alta precisão</h1>
+                    <h1 className="text-lg font-bold text-zinc-600 w-full">Alarmes inteligentes <br /> e câmeras de alta precisão</h1>
                     <ArrowRight className="w-[30px] h-[30px] text-zinc-600"/>
                 </div>
                 <div className="w-full border-b-2 border-zinc-700 "></div>
                 <div className="flex flex-row gap-6 w-full items-center">
                     <img src="/suporte.svg" alt="suporte" className="w-[32px] h-[32px] "/>
-                    <h1 className="text-lg font-medium text-zinc-600 w-full">Suporte técnico imediato</h1>
+                    <h1 className="text-lg font-bold text-zinc-600 w-full">Suporte técnico imediato</h1>
                     <ArrowRight className="w-[30px] h-[30px] text-zinc-600"/>
                 </div>
                 <div className="w-full border-b-2 border-zinc-700 "></div>
