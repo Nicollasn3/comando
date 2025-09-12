@@ -60,9 +60,9 @@ const Solucao = () => {
   return (
     <div className="flex flex-row w-full h-[1300px] justify-center  overflow-hidden p-6 gap-16">
         <div className="flex flex-col md:flex-row items-center md:items-start gap-12 ">
-            <div ref={conteudoRef} className="flex items-center justify-center h-[288px] w-[288px] rounded-sm border-[31px] border-azul-principal rounded-sm">
+            <div ref={conteudoRef} data-speed="clamp(0.5)" className="flex items-center justify-center h-[288px] w-[288px] rounded-sm border-[31px] border-azul-principal rounded-sm">
                 <div className="flex justify-center items-center align-middle h-[181.62px] w-[181.62px] rounded-sm bg-azul-principal border-16 border-white rounded-sm">
-                    <img 
+                    <img data-speed="clamp(0.5)"
                       ref={escudoRef}
                       id="escudo" 
                       src="/escudo.svg" 

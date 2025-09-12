@@ -33,7 +33,7 @@ const Loading = ({ onComplete }) => {
 
   return (
     <div 
-      className={`fixed inset-0 z-50 bg-white flex flex-col justify-center items-center transition-opacity duration-300 ease-out ${
+      className={`absolute h-full w-full z-50 bg-white flex flex-col pt-[400px] items-center transition-opacity duration-300 ease-out overflow-auto ${
         isVisible ? 'opacity-100' : 'opacity-0'
       }`}
     >
