@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className='fixed z-30 flex flex-row top-0 left-0 justify-between items-center p-6 w-screen h-fit bg-black md:px-20'>
+      <div className='fixed z-30 flex flex-row top-0 left-0 justify-between items-center p-6 w-screen h-fit w-full bg-black md:px-20'>
           <img src="/logo.svg" alt="logo" className='flex' />
           <div className='hidden md:block'>
               <ul className='flex items-center gap-6'>
@@ -20,7 +20,7 @@ const Navbar = () => {
                   <li><a className='text-white text-sm font-bold hover:text-blue-200 transition-all duration-300' href="#">Contact</a></li>
               </ul>
           </div>
-          <div className='md:hidden block flex items-center p-2 bg-azul-principal rounded-sm cursor-pointer' onClick={toggleSidebar}>
+          <div className='md:hidden block flex items-center p-2 rounded-sm cursor-pointer' onClick={toggleSidebar}>
               <Menu className='w-6 h-6 text-white' />
           </div>
           <button className='hidden md:block bg-azul-principal text-white xl:text-sm md:text-base text-sm font-medium px-6 py-2 rounded-full hover:bg-blue-600 focus:bg-blue-600  transition-all duration-300'>Entre em contato</button>

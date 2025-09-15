@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div id="hero" className='relative h-[93vh] w-screen overflow-hidden mt-20'>
+    <div id="hero" className='relative h-[93vh] w-full overflow-hidden mt-20'>
         <div className='relative z-10 h-full flex flex-col justify-end items-center px-6 py-11  gap-5'>
             <div className='flex flex-col gap-2 xl:w-[700px] md:w-[500px]'>
                 <h1 className='xl:text-5xl md:text-4xl text-3xl text-center text-white font-bold '>Seu condomínio <br /> seguro em segundos.</h1>

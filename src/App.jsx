@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import Hero from './components/Hero'
+import Hero from './components/hero'
 import Navbar from './components/Navbar' 
 import Problemas from './components/Problemas'
 import Loading from './components/Loading'
@@ -7,15 +7,15 @@ import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { ScrollSmoother } from 'gsap/ScrollSmoother'
 import Solucao from './components/Solucao'
+import Testemunhos from './components/Testemunhos'
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
-let smoother = ScrollSmoother.create({
-  smooth: 2,
-  effects: true,
-  normalizeScroll: true,
-  content: "#scroll-container" // força o GSAP a usar esse container
-});
+// let smoother = ScrollSmoother.create({
+//   smooth: 1,
+//   effects: true,
+// });
+
 
 
 function App() {
@@ -56,11 +56,12 @@ function App() {
     <>
       {/* Tela de loading sobrepondo tudo */}
       {isLoading && <Loading onComplete={handleLoadingComplete} />}
-      <main id="scroll-container" className='relative min-h-screen w-screen bg-white overflow-x-hidden scrollbar-thin scrollbar-thumb-azul-principal scrollbar-track-transparent'>
+      <main id="scroll-container" className='overflow-hidden'>
         <Navbar />
         <Hero />
         <Problemas />
         <Solucao />
+        <Testemunhos />
       </main>
     </>
   )
