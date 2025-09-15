@@ -29,4 +29,29 @@
     * {
         scroll-behavior: smooth;
     }
+
+    ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+    
+      ::-webkit-scrollbar-track {
+        background: transparent;
+        background-color: transparent;
+      }
+    
+      ::-webkit-scrollbar-thumb {
+        background: #0037ff; /* sua cor personalizada */
+        border-radius: 9999px;
+      }
+    
+      ::-webkit-scrollbar-thumb:hover {
+        background: #7373ff;
+      }
+    
+      /* Firefox */
+      * {
+        scrollbar-width: thin;
+        scrollbar-color: #5f5f5f transparent;
+      }
 }

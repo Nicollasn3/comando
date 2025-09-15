@@ -13,7 +13,8 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 let smoother = ScrollSmoother.create({
   smooth: 2,
   effects: true,
-  normalizeScroll: true
+  normalizeScroll: true,
+  content: "#scroll-container" // força o GSAP a usar esse container
 });
 
 
@@ -55,7 +56,7 @@ function App() {
     <>
       {/* Tela de loading sobrepondo tudo */}
       {isLoading && <Loading onComplete={handleLoadingComplete} />}
-      <main className='relative h-100dvh w-100dvh bg-white overflow-x-hidden'>
+      <main id="scroll-container" className='relative min-h-screen w-screen bg-white overflow-x-hidden scrollbar-thin scrollbar-thumb-azul-principal scrollbar-track-transparent'>
         <Navbar />
         <Hero />
         <Problemas />

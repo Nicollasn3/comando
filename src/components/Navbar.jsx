@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className='fixed z-30 flex flex-row top-0 left-0 justify-between items-center p-6 w-full h-fit bg-black md:px-20'>
+      <div className='fixed z-30 flex flex-row top-0 left-0 justify-between items-center p-6 w-screen h-fit bg-black md:px-20'>
           <img src="/logo.svg" alt="logo" className='flex' />
           <div className='hidden md:block'>
               <ul className='flex items-center gap-6'>
