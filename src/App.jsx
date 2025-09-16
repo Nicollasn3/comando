@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import Hero from './components/Hero'
+import Hero from './components/hero'
 import Navbar from './components/Navbar' 
 import Problemas from './components/Problemas'
 import Loading from './components/Loading'
@@ -8,6 +8,8 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { ScrollSmoother } from 'gsap/ScrollSmoother'
 import Solucao from './components/Solucao'
 import Testemunhos from './components/Testemunhos'
+import Saiba from './components/Saiba'
+import Footer from './components/Footer'
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
@@ -56,12 +58,23 @@ function App() {
     <>
       {/* Tela de loading sobrepondo tudo */}
       {isLoading && <Loading onComplete={handleLoadingComplete} />}
-      <main id="scroll-container" className='overflow-hidden'>
+      
+      {/* Skip link target */}
+      <div id="main-content" className="sr-only"></div>
+      
+      <main 
+        id="scroll-container" 
+        className='overflow-hidden'
+        role="main"
+        aria-label="Conteúdo principal da página Comando Segurança"
+      >
         <Navbar />
         <Hero />
         <Problemas />
         <Solucao />
         <Testemunhos />
+        <Saiba />
+        <Footer />
       </main>
     </>
   )

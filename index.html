@@ -1,12 +1,45 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/logocrop.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Comando - Segurança Inteligente</title>
+    
+    <!-- SEO Meta Tags -->
+    <title>Comando - Segurança Inteligente | Portões Automatizados e Controle de Acesso</title>
+    <meta name="description" content="Soluções inteligentes de segurança para condomínios. Portões automatizados, controle de acesso via celular e sistemas de monitoramento 24h. Tranquilidade garantida para moradores." />
+    <meta name="keywords" content="segurança inteligente, portão automatizado, controle de acesso, condomínio, automação residencial, segurança 24h, Comando" />
+    <meta name="author" content="Comando - Segurança Inteligente" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://comando-seguranca.com/" />
+    <meta property="og:title" content="Comando - Segurança Inteligente | Portões Automatizados" />
+    <meta property="og:description" content="Soluções inteligentes de segurança para condomínios. Portões automatizados, controle de acesso via celular e sistemas de monitoramento 24h." />
+    <meta property="og:image" content="/logo.svg" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://comando-seguranca.com/" />
+    <meta property="twitter:title" content="Comando - Segurança Inteligente | Portões Automatizados" />
+    <meta property="twitter:description" content="Soluções inteligentes de segurança para condomínios. Portões automatizados, controle de acesso via celular e sistemas de monitoramento 24h." />
+    <meta property="twitter:image" content="/logo.svg" />
+    
+    <!-- Acessibilidade -->
+    <meta name="theme-color" content="#0C41FF" />
+    <meta name="color-scheme" content="light" />
+    
+    <!-- Preload crítico -->
+    <link rel="preload" href="/src/main.jsx" as="script" />
+    <link rel="preload" href="/src/index.css" as="style" />
   </head>
   <body>
+    <!-- Skip to main content para acessibilidade -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-azul-principal text-white px-4 py-2 rounded z-50">
+      Pular para o conteúdo principal
+    </a>
+    
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
