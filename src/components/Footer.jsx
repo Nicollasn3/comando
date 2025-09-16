@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="w-screen h-fit py-10 px-20 flex flex-col bg-black gap-10">
+    <div className="w-screen h-fit py-10 px-6 md:px-20 flex flex-col bg-black gap-10">
         <div className="flex flex-row gap-10 items-center justify-between">
             <img src="/logo.svg" alt="logo" className="w-[145.68px] object-cover" />
             <div className="flex flex-row gap-4">
