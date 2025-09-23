@@ -89,7 +89,7 @@ const Problemas = () => {
     <div id="problemas" className='relative h-fit w-full overflow-hidden py-12 px-6 flex flex-col gap-12 md:items-center md:justify-center md:justify-center'>
       <div className='flex flex-col gap-2'>
         <h1 className='text-3xl font-bold text-black md:text-center md:text-4xl'>Imagine acordar <br /> de madrugada com <br className="md:hidden" /> o portão aberto.</h1>
-        <p className='text-base font-medium text-zinc-500 md:text-center md:w-[700px] '>Ou chegar em casa e descobrir que o sistema falhou bem na hora que você mais precisava. Infelizmente, muitos condomínios em Vicente Pires vivem exatamente isso:</p>
+        <p className='text-base font-medium text-zinc-500 md:text-center md:w-[700px] '>Ou chegar em casa e descobrir que o sistema falhou bem na hora que você mais precisava. Infelizmente, muitos condomínios em Brasília vivem exatamente isso:</p>
       </div>
       <div className='flex flex-col w-full h-fit gap-12 rounded-sm'>
         <CardProblema

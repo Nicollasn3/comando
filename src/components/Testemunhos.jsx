@@ -28,6 +28,7 @@ const Testemunhos = () => {
 
     return (
         <section 
+            id="testemunhos"
             className="w-screen h-fit py-14 flex flex-col items-center px-6 gap-6 md:gap-14 bg-[#FAFAFA] border-y-2 border-black/10 "
             aria-labelledby="testimonials-heading"
             role="region"
@@ -59,7 +60,7 @@ const Testemunhos = () => {
                     aria-label="Depoimento de síndico de condomínio sobre segurança automatizada"
                 >
                     <blockquote className="md:text-base text-sm font-medium text-gray-500">
-                        "Nosso portão vivia travando de madrugada. Depois que instalamos a Comando, nunca mais tivemos esse problema. Hoje, controlo o acesso pelo celular e durmo em paz."
+                    "Nossas câmeras não gravavam direito à noite. Depois que instalamos a Comando, nunca mais tivemos esse problema. Hoje acompanho tudo pelo celular e fico tranquilo."
                     </blockquote>
                     <footer className="flex w-full flex-row items-center justify-start gap-4">
                         <img 
@@ -69,7 +70,7 @@ const Testemunhos = () => {
                             loading="lazy"
                         />
                         <cite className="text-base md:text-lg font-bold text-black not-italic">
-                            Síndico de condomínio
+                        Marta Souza
                         </cite>
                     </footer>
                 </article>
@@ -80,7 +81,7 @@ const Testemunhos = () => {
                     aria-label="Depoimento de síndico de condomínio sobre segurança automatizada"
                 >
                     <blockquote className="md:text-base text-sm font-medium text-gray-500">
-                        "Nosso portão vivia travando de madrugada. Depois que instalamos a Comando, nunca mais tivemos esse problema. Hoje, controlo o acesso pelo celular e durmo em paz."
+                    "O portão da garagem travava todo fim de semana. Depois que instalamos a Comando, nunca mais tivemos esse problema. Hoje abro o acesso pelo celular sem preocupação."
                     </blockquote>
                     <footer className="flex w-full flex-row items-center justify-start gap-4">
                         <img 
@@ -90,7 +91,7 @@ const Testemunhos = () => {
                             loading="lazy"
                         />
                         <cite className="text-base md:text-lg font-bold text-black not-italic">
-                            Síndico de condomínio
+                        Carlos Oliveira
                         </cite>
                     </footer>
                 </article>
@@ -101,8 +102,7 @@ const Testemunhos = () => {
                     aria-label="Depoimento de síndico de condomínio sobre segurança automatizada"
                 >
                     <blockquote className="md:text-base text-sm font-medium text-gray-500">
-                        "Nosso portão vivia travando de madrugada. Depois que instalamos a Comando, nunca mais tivemos esse problema. Hoje, controlo o acesso pelo celular e durmo em paz."
-                    </blockquote>
+                    "O interfone quebrava e deixava visitas sem entrar. Depois que instalamos a Comando, nunca mais tivemos esse problema. Hoje recebo alertas no celular em tempo real."                    </blockquote>
                     <footer className="flex w-full flex-row items-center justify-start gap-4">
                         <img 
                             src="Foto-a.png" 
@@ -111,7 +111,7 @@ const Testemunhos = () => {
                             loading="lazy"
                         />
                         <cite className="text-base md:text-lg font-bold text-black not-italic">
-                            Síndico de condomínio
+                        Fernanda Costa
                         </cite>
                     </footer>
                 </article>
@@ -122,7 +122,7 @@ const Testemunhos = () => {
                     aria-label="Depoimento de síndico de condomínio sobre segurança automatizada"
                 >
                     <blockquote className="md:text-base text-sm font-medium text-gray-500">
-                        "Nosso portão vivia travando de madrugada. Depois que instalamos a Comando, nunca mais tivemos esse problema. Hoje, controlo o acesso pelo celular e durmo em paz."
+                    "A cerca elétrica falhava quase todas as madrugadas. Depois que instalamos a Comando, nunca mais tivemos esse problema. Hoje monitoro pelo celular e fico tranquilo."                
                     </blockquote>
                     <footer className="flex w-full flex-row items-center justify-start gap-4">
                         <img 
@@ -132,7 +132,7 @@ const Testemunhos = () => {
                             loading="lazy"
                         />
                         <cite className="text-base md:text-lg font-bold text-black not-italic">
-                            Síndico de condomínio
+                        João Silva
                         </cite>
                     </footer>
                 </article>
@@ -143,7 +143,7 @@ const Testemunhos = () => {
                     aria-label="Depoimento de síndico de condomínio sobre segurança automatizada"
                 >
                     <blockquote className="md:text-base text-sm font-medium text-gray-500">
-                        "Nosso portão vivia travando de madrugada. Depois que instalamos a Comando, nunca mais tivemos esse problema. Hoje, controlo o acesso pelo celular e durmo em paz."
+                    "O controle dos portões sumia toda semana. Depois que instalamos a Comando, nunca mais tivemos esse problema. Hoje libero a entrada pelo celular e durmo sossegado."                
                     </blockquote>
                     <footer className="flex w-full flex-row items-center justify-start gap-4">
                         <img 
@@ -153,7 +153,7 @@ const Testemunhos = () => {
                             loading="lazy"
                         />
                         <cite className="text-base md:text-lg font-bold text-black not-italic">
-                            Síndico de condomínio
+                        Patrícia Oliveira
                         </cite>
                     </footer>
                 </article>
@@ -164,7 +164,7 @@ const Testemunhos = () => {
                     aria-label="Depoimento de síndico de condomínio sobre segurança automatizada"
                 >
                     <blockquote className="md:text-base text-sm font-medium text-gray-500">
-                        "Nosso portão vivia travando de madrugada. Depois que instalamos a Comando, nunca mais tivemos esse problema. Hoje, controlo o acesso pelo celular e durmo em paz."
+                    "Tínhamos falhas no acesso de visitantes no prédio. Depois que instalamos a Comando, nunca mais tivemos esse problema. Hoje faço tudo pelo celular com segurança."        
                     </blockquote>
                     <footer className="flex w-full flex-row items-center justify-start gap-4">
                         <img 
@@ -174,7 +174,7 @@ const Testemunhos = () => {
                             loading="lazy"
                         />
                         <cite className="text-base md:text-lg font-bold text-black not-italic">
-                            Síndico de condomínio
+                        Ricardo Santos
                         </cite>
                     </footer>
                 </article>

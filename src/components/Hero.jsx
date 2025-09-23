@@ -8,6 +8,7 @@ const Hero = () => {
             </div>
             <button className='bg-azul-principal text-white xl:text-lg md:text-base text-sm font-medium px-6 py-2 rounded-full hover:bg-white hover:text-azul-principal  transition-all duration-300'>Fale no WhatsApp agora</button>
         </div>
+
         <video 
           autoPlay 
           muted 

@@ -16,8 +16,8 @@ const Navbar = () => {
               <ul className='flex items-center gap-6'>
                   <li><a className='text-white text-sm font-bold hover:text-blue-200 transition-all duration-300' href="#hero">Home</a></li>
                   <li><a className='text-white text-sm font-bold hover:text-blue-200 transition-all duration-300' href="#problemas">Problemas</a></li>
-                  <li><a className='text-white text-sm font-bold hover:text-blue-200 transition-all duration-300' href="#">Services</a></li>
-                  <li><a className='text-white text-sm font-bold hover:text-blue-200 transition-all duration-300' href="#">Contact</a></li>
+                  <li><a className='text-white text-sm font-bold hover:text-blue-200 transition-all duration-300' href="#solucao">Soluções</a></li>
+                  <li><a className='text-white text-sm font-bold hover:text-blue-200 transition-all duration-300' href="#testemunhos">Testemunhos</a></li>
               </ul>
           </div>
           <div className='md:hidden block flex items-center p-2 rounded-sm cursor-pointer' onClick={toggleSidebar}>
@@ -47,8 +47,8 @@ const Navbar = () => {
           <ul className='flex flex-col gap-2'>
             <a onClick={toggleSidebar} href="#hero" className='grup flex items-center justify-between'><h1 className='text-white text-lg font-bold block py-2'>Home</h1> <ChevronRight className='w-6 h-6 text-white' /></a>
             <a onClick={toggleSidebar} href="#problemas" className='grup flex items-center justify-between'><h1 className='text-white text-lg font-bold block py-2'>Problemas</h1> <ChevronRight className='w-6 h-6 text-white' /></a>
-            <a onClick={toggleSidebar} href="#services" className='grup flex items-center justify-between'><h1 className='text-white text-lg font-bold block py-2'>Services</h1> <ChevronRight className='w-6 h-6 text-white' /></a>
-            <a onClick={toggleSidebar} href="#contact" className='grup flex items-center justify-between'><h1 className='text-white text-lg font-bold block py-2'>Contact</h1> <ChevronRight className='w-6 h-6 text-white' /></a>
+            <a onClick={toggleSidebar} href="#solucao" className='grup flex items-center justify-between'><h1 className='text-white text-lg font-bold block py-2'>Soluções</h1> <ChevronRight className='w-6 h-6 text-white' /></a>
+            <a onClick={toggleSidebar} href="#testemunhos" className='grup flex items-center justify-between'><h1 className='text-white text-lg font-bold block py-2'>Testemunhos</h1> <ChevronRight className='w-6 h-6 text-white' /></a>
           </ul>
           
           {/* Botão de Contato */}
