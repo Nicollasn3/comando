@@ -30,7 +30,7 @@ const Saiba = () => {
         <div className="h-fit w-full flex flex-col gap-4 max-w-[461px]">
             <h1 className="text-4xl font-bold text-white">Mais que tecnologia, tranquilidade para você <br className="hidden md:block" />e sua família.</h1>
             <h2 className="text-base font-medium text-zinc-200">Não arrisque a segurança do seu condomínio. Clique abaixo <br className="hidden md:block" /> e fale agora com nossa equipe pelo WhatsApp.</h2>
-            <button className="bg-white w-fit text-azul-principal text-base font-medium px-6 py-2 rounded-full hidden md:block">Fale no WhatsApp agora</button>
+            <a href="https://wa.link/7k63fi" target="_blank" rel="noopener noreferrer" className="bg-white w-fit text-azul-principal text-base font-medium px-6 py-2 rounded-full hidden md:block hover:bg-azul-principal hover:text-white transition-all duration-300 inline-block text-center">Fale no WhatsApp agora</a>
         </div>
         <img 
           ref={imageRef}
@@ -38,7 +38,7 @@ const Saiba = () => {
           alt="homem" 
           className="w-full h-full object-cover md:w-[461px] opacity-0 transform translate-y-8 transition-all duration-700 ease-out" 
         />
-        <button className="bg-white text-azul-principal text-lg font-medium px-6 py-2 rounded-full md:hidden">Fale no WhatsApp agora</button>
+        <a href="https://wa.link/7k63fi" target="_blank" rel="noopener noreferrer" className="bg-white text-azul-principal text-lg font-medium px-6 py-2 rounded-full md:hidden hover:bg-azul-principal hover:text-white transition-all duration-300 inline-block text-center">Fale no WhatsApp agora</a>
     </div>
   )
 }

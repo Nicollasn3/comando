@@ -6,7 +6,7 @@ const Hero = () => {
                 <h1 className='xl:text-5xl md:text-4xl text-3xl text-center text-white font-bold '>Seu condomínio <br /> seguro em segundos.</h1>
                 <h2 className='text-zinc-200 xl:text-lg md:text-base text-sm text-center font-medium'>Chega de portões travando, câmeras falhando ou moradores vulneráveis. A Comando traz a tecnologia que protege você 24h por dia, 7 dias por semana.</h2>
             </div>
-            <button className='bg-azul-principal text-white xl:text-lg md:text-base text-sm font-medium px-6 py-2 rounded-full hover:bg-white hover:text-azul-principal  transition-all duration-300'>Fale no WhatsApp agora</button>
+            <a href="https://wa.link/7k63fi" target="_blank" rel="noopener noreferrer" className='bg-azul-principal text-white xl:text-lg md:text-base text-sm font-medium px-6 py-2 rounded-full hover:bg-white hover:text-azul-principal transition-all duration-300 inline-block text-center'>Fale no WhatsApp agora</a>
         </div>
 
         <video 

@@ -99,7 +99,7 @@ const Solucao = () => {
                     <ArrowRight className="w-[30px] h-[30px] text-zinc-600"/>
                 </div>
                 <div className="w-full border-b-2 border-zinc-700 "></div>
-                <button className="w-fit bg-azul-principal text-white text-lg font-medium px-12 py-3 rounded-full">Fale no WhatsApp agora</button>
+                <a href="https://wa.link/7k63fi" target="_blank" rel="noopener noreferrer" className="w-fit bg-azul-principal text-white text-lg font-medium px-12 py-3 rounded-full hover:bg-white hover:text-azul-principal transition-all duration-300 inline-block text-center">Fale no WhatsApp agora</a>
             </div>
         </div>
 

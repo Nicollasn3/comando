@@ -23,7 +23,7 @@ const Navbar = () => {
           <div className='md:hidden block flex items-center p-2 rounded-sm cursor-pointer' onClick={toggleSidebar}>
               <Menu className='w-6 h-6 text-white' />
           </div>
-          <button className='hidden md:block bg-azul-principal text-white xl:text-sm md:text-base text-sm font-medium px-6 py-2 rounded-full hover:bg-blue-600 focus:bg-blue-600  transition-all duration-300'>Entre em contato</button>
+          <a href="https://wa.link/7k63fi" target="_blank" rel="noopener noreferrer" className='hidden md:block bg-azul-principal text-white xl:text-sm md:text-base text-sm font-medium px-6 py-2 rounded-full hover:bg-white hover:text-azul-principal transition-all duration-300 inline-block text-center'>Entre em contato</a>
       </div>
 
       {/* Sidebar Mobile */}
@@ -53,9 +53,9 @@ const Navbar = () => {
           
           {/* Botão de Contato */}
           <div className='mt-8'>
-            <button className='w-full bg-azul-principal text-white text-lg font-medium px-6 py-3 rounded-full'>
+            <a href="https://wa.link/7k63fi" target="_blank" rel="noopener noreferrer" className='w-full bg-azul-principal text-white text-lg font-medium px-6 py-3 rounded-full hover:bg-white hover:text-azul-principal transition-all duration-300 inline-block text-center'>
               Entre em contato
-            </button>
+            </a>
           </div>
         </div>
       </div>
